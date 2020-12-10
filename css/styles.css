@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0px;
-    font-family: interstate, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 500; 
     background: rgb(244, 245, 247);
     color: rgb(72, 86, 111);
@@ -48,19 +48,22 @@ li {
 }
 
 .container {
-    max-width: 57em;
+    max-width: 85em;
     margin: 0 auto;
-    padding: 0 1.5em 0 1.5em;
+    padding: 0 3.14em 0 3.14em;
 }
 
 h1 {
-    font-size: 3em;
-    margin: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin: 1em 0 0 0;
 }
 
 h2 {
-    font-size: 2.125em;
-    margin: 0 0 0.125em 0;
+    font-size: 2.4em;
+    color: rgba(72, 86, 111, 0.7);
+    font-weight: normal;
+    margin: 0.125em 0 1em 0;
 }
 
 h3 {
